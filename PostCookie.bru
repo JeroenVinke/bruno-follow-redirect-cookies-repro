@@ -1,0 +1,15 @@
+meta {
+  name: Post Cookie
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3001/check-cookie
+  body: none
+  auth: none
+}
+
+assert {
+  res.body.message: eq Cookie is present
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Bruno follow redirect cookies repro",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
